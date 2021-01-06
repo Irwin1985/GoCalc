@@ -1,5 +1,5 @@
 # GoCalc
-GoCalc is a simple calculator written in go that can parse Arithmetic and Boolean Expressions.
+GoCalc is a simple calculator written in go that can parse Arithmetic Expressions.
 
 # Interpreter Principle
 GoCalc process begins with the Lexer that split the input (source code) into tokens. Then the parser takes those tokens and build an Abstract Syntax Tree out of them to finally evaluate their result into native type either boolean or integer type.
